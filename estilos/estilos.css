@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width:100%;
+    margin-top: 10px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:10px; /* para que las imágenes no se amontonen */
+}
+
+.col{
+    padding: 10px; /* para que se separen */
+}
+
+body{
+    background-color:blanchedalmond;
+}
+header{
+    padding: 50px;
+    background-color: blueviolet;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none; /* saca el subrayado */
+    padding: 20px;
+    color:aliceblue;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+}
+
+footer{
+    padding:50px;
+    background-color: blueviolet;
+
+}
+.redes{ /*este es el contenedor padre de las redes sociales */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div{
+    background-color: rgb(212,58,192);
+    padding: 20px; /* para que tengan relleno */
+    margin: 10px; /* para que estén un poco separadas */
+}
+
+.flexContainer{
+    height: 500px; /*para que los elementos tengan espacio para moverse */
+    background-color: rgb(232,208,208);
+    padding: 30px;
+    display: flex;
+    flex-direction: row; /* es la propiedad por defecto */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
